@@ -29,7 +29,7 @@ In different sites and meetups I stated and proclaimed my opinions about Python.
 
 - [**"Python is not great or even that good for mathematical computations..."**](https://mathematica.stackexchange.com/a/121046/34008), (2016)
 
-   - Answer to ["Mathematica vs. Python - how does Mathematica compare to Python's scientific computing suite?"](https://mathematica.stackexchange.com/q/86058/34008)
+   - Answer to ["Mathematica vs. Python - how does Mathematica compare to Python's scientific computing suite?"](https://mathematica.stackexchange.com/q/86058/34008).
 
 *(I plan to discuss my Python background in the next post...)*
 
