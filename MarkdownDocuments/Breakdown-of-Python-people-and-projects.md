@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This document presents *an attempt* to breakdown of the:
+This document presents *an attempt* to breakdown the:
 
 - People who use Python
 - People who program (and think) in Python
