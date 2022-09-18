@@ -8,7 +8,7 @@ This document presents *an attempt* to breakdown the:
 - People who program (and think) in Python
 - Projects with heavy use of Python
 
-The attempt is mostly provocative but maybe insightful too. 
+The attempt is mostly provocative, but maybe also insightful. 
 
 ------
 
