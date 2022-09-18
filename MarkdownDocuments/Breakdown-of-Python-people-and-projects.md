@@ -144,6 +144,7 @@ to be fungible (because they all use Python.)
 ["A Retake on the Agile Manifesto • Humble, Thomas, Badiceanu, Fowler & Kirk • GOTO 2014"](https://www.youtube.com/watch?v=zNvmjPzdqKc),
 (2014),
 ["Goto Conferences" channel at YouTube](https://www.youtube.com/c/GotoConferences).
+(Hear [statements at 10:57](https://www.youtube.com/watch?v=zNvmjPzdqKc&t=657s).)
 
 [GvR1] ["The fate of reduce() in Python 3000"](https://www.artima.com/weblogs/viewpost.jsp?thread=98196).
 
