@@ -1,0 +1,138 @@
+# Breakdown of Python people and projects
+
+## Introduction
+
+This document presents *an attempt* to breakdown of the:
+
+- People who use Python
+- People who program (and think) in Python
+- Projects with heavy use of Python
+
+The attempt is mostly provocative but maybe insightful too. 
+
+------
+
+## Breakdown mind-map
+
+Here is a mind map of the proposed (attempted) breakdown:
+
+![](./Diagrams/Breakdown-of-Python-people-and-projects/Breakdown-of-Python-people-and-projects-mind-map-BW.png)
+
+(The mind map was made with the old, ~~better~~ version of [MindNode](https://www.mindnode.com).)
+
+------
+
+## Breakdown definitions
+
+In this section we give definitions (or clarifications) of the nodes of mind-map above.
+
+### Types of people
+
+#### Ideologists
+
+- Pythonistas: Really believe in Python as a way of life.
+
+- Pythonists: Really believe Python is a programming language of great utility.  
+
+- Pythongelists: Enthusiastically and eagerly propagate the ideas of Pythonistas and Pythonists. 
+
+- Pythonihilists: Do not believe in Python that much at all; think that believing in Python is both detrimental and exploitable.
+
+    - *In case it is not clear: this is me*.
+
+#### Users
+
+- Pythontourage: Managers, quality assurance engineers, or advocates found in and around Python projects. 
+
+- Pythelons: Felons using Python. (For, say, phishing, crypto-extortion, hijacking, etc.)
+
+- Py-curious: Programmers or users of other programming languages that are curious about Python. 
+
+#### Programmers
+
+- Pythonizers: See every problem through the Python-lens and produce engineering solutions based on Python.
+
+- Reticulizers: Accommodate Python use or implementations in existing or future projects of different kind.
+
+- Pythoners: Long-run Python users; maintain long-run projects based on Python.
+
+- Пайтонджии: Труженици ползващи усилено Пайтон. (Понякога принудително.)
+
+### Programming
+
+- Pythonitis: Unconscious transferring of Python idioms or macro or micro patterns into projects with other languages.  
+
+- Pythonification: Attempts to have a unified user experience or user interface 
+
+- Pythonomers: Standard computer science terms or algorithms misnamed in Python. 
+
+- Pythonoscopy: Using Python to debug, monitor, or introspect a certain engineering solution.
+
+- Pythonectomy: Removing Python from projects. Happens often in sufficiently advanced projects; 
+  most frequently replaced with Java. 
+
+- Game of pythons: Attempting to install or update Python on particular machine usually shows 
+  that there are too many Pythons, often, with competing agendas. 
+
+### Strategy
+
+- Pythonomy: Python-driven software architecture.  
+
+- Pythonomics: School of thought that believes that using Python produces cheap and convenient solutions. 
+- 
+- Pythonimists: People justifying Python on economical or accounting grounds. 
+
+- Pythong: Using Python in project management decisions.
+   - "Nobody got fired for proposing Python in a project." 
+
+### Warnings
+
+- Pythonimics: Python (macro- or micro-) thinking mimicry. Especially applied to projects Python is not suitable for. 
+
+- Pythonomers: See the definition above. For some reas 
+
+- Pythonidis: See the definition above. It happens when on idiomatic level often enough.
+
+
+------
+
+## Big picture for "Why Python?"
+
+In this section we give some context for some of the definitions above.
+
+### Python is a reaction to Perl
+
+Python's inventor Guido van Rossum got scared from Perl, and decided to make a programming language 
+based on the principle "everything is done in one, and only one, obvious way" (EISDIOAOOOW). 
+
+In other words, applying some sort of opposite of the principle 
+["There's more than one way to do it" (TIMTOWTDI)](https://en.wikipedia.org/wiki/There's_more_than_one_way_to_do_it).
+
+Applying EISDIOAOOOW is a very Dutch or Scandinavian way of doing things. For example, in those countries
+the following Japanese proverb broadly applies in every-day life:
+
+> A nail that sticks out is nailed down.
+
+### Terminology by the underdeveloped
+
+Much of the terminology of Python comes from the partially developed skills and computer science knowledge of 
+its inventor and developers. Also, must Python users are "not brought to term" programmers, hence stutid or
+inadequate terminology gets "free pass" from them.
+
+### Capitalistic SAFe
+
+Scalable Agile Framework (SAFe) -- also known as Shitty Agile For Enterprises -- tries to combine the Waterfall
+and Agile methodologies. SAFe, of course, is often combined with managers short attention span and desires for 
+cheap solutions and workforce. 
+
+One consequence is that often Python is seen as the uniform skill and paradigm 
+that is going to bring everything together cheaply. 
+Another consequence is that all data scientists and machine learning engineers in those projects are seen 
+to be fungible (because they all use Python.)
+
+------
+
+## References
+
+
+
