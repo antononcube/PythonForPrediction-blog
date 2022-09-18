@@ -79,7 +79,7 @@ In this section we give definitions (or clarifications) of the nodes of mind-map
 - **Pythonomy:** Python-driven software architecture.  
 
 - **Pythonomics:** School of thought that believes that using Python produces cheap and convenient solutions. 
-- 
+
 - **Pythonimists:** People justifying Python on economical or accounting grounds. 
 
 - **Pythong:** Using Python in project management decisions.
@@ -112,22 +112,27 @@ In other words, applying some sort of opposite of the principle
 Applying EISDIOAOOOW is a very Dutch or Scandinavian way of doing things. For example, in those countries
 the following Japanese proverb broadly applies in every-day life:
 
-> A nail that sticks out is nailed down.
+> [A nail that sticks out gets hammered down.](https://en.wiktionary.org/wiki/the_nail_that_sticks_out_gets_hammered_down)
+
+
 
 ### Terminology by the underdeveloped
 
 Much of the terminology of Python comes from the partially developed skills and computer science knowledge of 
-its inventor and developers. Also, must Python users are "not brought to term" programmers, hence stutid or
+its inventor and developers. Also, must Python users are "not brought to term" programmers, hence stupid or
 inadequate terminology gets "free pass" from them.
+
+Also, see [GvR1] in which Guido van Rossum discussed his not understanding of functional programming.  
 
 ### Capitalistic SAFe
 
-Scalable Agile Framework (SAFe) -- also known as Shitty Agile For Enterprises -- tries to combine the Waterfall
+Scaled Agile Framework (SAFe) -- also known as Shitty Agile For Enterprises -- tries to combine the Waterfall
 and Agile methodologies. SAFe, of course, is often combined with managers short attention span and desires for 
-cheap solutions and workforce. 
+cheap solutions (and workforce.) 
 
 One consequence is that often Python is seen as the uniform skill and paradigm 
 that is going to bring everything together cheaply. 
+
 Another consequence is that all data scientists and machine learning engineers in those projects are seen 
 to be fungible (because they all use Python.)
 
@@ -135,5 +140,13 @@ to be fungible (because they all use Python.)
 
 ## References
 
+[GvR1] ["The fate of reduce() in Python 3000"](https://www.artima.com/weblogs/viewpost.jsp?thread=98196).
 
+[Wk1] Wikipedia entry 
+["Python (programming language)"](https://en.wikipedia.org/wiki/Python_(programming_language)).
 
+[Wk3] Wikipedia entry
+["There's more than one way to do it"](https://en.wikipedia.org/wiki/There's_more_than_one_way_to_do_it").
+
+[Wk4] Wikipedia entry
+["Scaled agile framework"](https://en.wikipedia.org/wiki/Scaled_agile_framework).
