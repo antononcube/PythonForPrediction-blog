@@ -30,68 +30,69 @@ In this section we give definitions (or clarifications) of the nodes of mind-map
 
 #### Ideologists
 
-- Pythonistas: Really believe in Python as a way of life.
+- **Pythonistas:** Really believe in Python as a way of life.
 
-- Pythonists: Really believe Python is a programming language of great utility.  
+- **Pythonists:** Really believe Python is a programming language of great utility.  
 
-- Pythongelists: Enthusiastically and eagerly propagate the ideas of Pythonistas and Pythonists. 
+- **Pythongelists:** Enthusiastically and eagerly propagate the ideas of Pythonistas and Pythonists. 
 
-- Pythonihilists: Do not believe in Python that much at all; think that believing in Python is both detrimental and exploitable.
+- **Pythonihilists:** Do not believe in Python that much at all; think that believing in Python is both detrimental and exploitable.
 
     - *In case it is not clear: this is me*.
 
 #### Users
 
-- Pythontourage: Managers, quality assurance engineers, or advocates found in and around Python projects. 
+- **Pythontourage:** Managers, quality assurance engineers, or advocates found in and around Python projects. 
 
-- Pythelons: Felons using Python. (For, say, phishing, crypto-extortion, hijacking, etc.)
+- **Pythelons:** Felons using Python. (For, say, phishing, crypto-extortion, hijacking, etc.)
 
-- Py-curious: Programmers or users of other programming languages that are curious about Python. 
+- **Py-curious:** Programmers or users of other programming languages that are curious about Python. 
 
 #### Programmers
 
-- Pythonizers: See every problem through the Python-lens and produce engineering solutions based on Python.
+- **Pythonizers:** See every problem through the Python-lens and produce engineering solutions based on Python.
 
-- Reticulizers: Accommodate Python use or implementations in existing or future projects of different kind.
+- **Reticulizers:** Accommodate Python use or implementations in existing or future projects of different kind.
 
-- Pythoners: Long-run Python users; maintain long-run projects based on Python.
+- **Pythoners:** Long-run Python users; maintain long-run projects based on Python.
 
-- Пайтонджии: Труженици ползващи усилено Пайтон. (Понякога принудително.)
+- **Пайтонджии:** Труженици ползващи усилено Пайтон. (Понякога принудително.)
 
 ### Programming
 
-- Pythonitis: Unconscious transferring of Python idioms or macro or micro patterns into projects with other languages.  
+- **Pythonitis:** Unconscious transferring of Python idioms or macro or micro patterns into projects with other languages.  
 
-- Pythonification: Attempts to have a unified user experience or user interface 
+- **Pythonification:** Attempts to have a unified user experience or user interface 
 
-- Pythonomers: Standard computer science terms or algorithms misnamed in Python. 
+- **Pythonomers:** Standard computer science terms or algorithms misnamed in Python. 
 
-- Pythonoscopy: Using Python to debug, monitor, or introspect a certain engineering solution.
+- **Pythonoscopy:** Using Python to debug, monitor, or introspect a certain engineering solution.
 
-- Pythonectomy: Removing Python from projects. Happens often in sufficiently advanced projects; 
+- **Pythonectomy:** Removing Python from projects. Happens often in sufficiently advanced projects; 
   most frequently replaced with Java. 
 
-- Game of pythons: Attempting to install or update Python on particular machine usually shows 
+- **Game of pythons:** Attempting to install or update Python on particular machine usually shows 
   that there are too many Pythons, often, with competing agendas. 
 
 ### Strategy
 
-- Pythonomy: Python-driven software architecture.  
+- **Pythonomy:** Python-driven software architecture.  
 
-- Pythonomics: School of thought that believes that using Python produces cheap and convenient solutions. 
+- **Pythonomics:** School of thought that believes that using Python produces cheap and convenient solutions. 
 - 
-- Pythonimists: People justifying Python on economical or accounting grounds. 
+- **Pythonimists:** People justifying Python on economical or accounting grounds. 
 
-- Pythong: Using Python in project management decisions.
+- **Pythong:** Using Python in project management decisions.
    - "Nobody got fired for proposing Python in a project." 
 
 ### Warnings
 
-- Pythonimics: Python (macro- or micro-) thinking mimicry. Especially applied to projects Python is not suitable for. 
+- **Pythonimics:** Python (macro- or micro-) thinking mimicry. Especially applied to projects Python is not suitable for. 
 
-- Pythonomers: See the definition above. For some reas 
+- **Pythonomers:** See the definition above. For some reason, Python using different names for mainstream concepts
+  in computer science. Maybe, because it was though that that would make Python more "user friendly."
 
-- Pythonidis: See the definition above. It happens when on idiomatic level often enough.
+- **Pythonidis:** See the definition above. It happens when on idiomatic level often enough.
 
 
 ------
