@@ -74,6 +74,8 @@ In this section we give definitions (or clarifications) of the nodes of mind-map
 - **Game of pythons:** Attempting to install or update Python on particular machine usually shows 
   that there are too many Pythons, often, with competing agendas. 
 
+- **Pythonstan:** Generally speaking that is [PyPI.org](https://pypi.org). (Or any project with a similar scope.)
+
 ### Strategy
 
 - **Pythonomy:** Python-driven software architecture.  
