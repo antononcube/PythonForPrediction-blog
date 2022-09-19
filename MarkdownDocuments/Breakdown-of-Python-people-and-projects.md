@@ -135,7 +135,7 @@ For example, in those countries the following Japanese proverb broadly applies i
 ### Terminology by the underdeveloped
 
 Much of the terminology of Python comes from the partially developed skills and computer science knowledge of 
-its inventor and developers. Also, must Python users are "not brought to term" programmers, hence stupid or
+its inventor and developers. Also, most Python users are "not brought to term" programmers, hence stupid or
 inadequate terminology gets "free passes" from them.
 
 Also, see [GvR1] in which Guido van Rossum discussed his not understanding of functional programming.  
