@@ -101,6 +101,20 @@ In this section we give definitions (or clarifications) of the nodes of mind-map
 
 In this section we give some context for some of the definitions above.
 
+### Users vs programmers
+
+Most people utilizing Python a Python users not Python programmers:
+
+- Python users learn how to use a few Python libraries and all their professional lives unfold within the workflows envisioned by the designers and developers of those libraries.
+
+  - (Regardless how good, sound, tested, or useful the corresponding implementations are.)
+
+- Python programmers are capable of writing complete products in Python.
+
+  - That includes libraries.
+
+  - Making a Python library require language knowledge that Python users usually do not have or care to acquire.
+
 ### Python is a reaction to Perl
 
 Python's inventor Guido van Rossum got scared from Perl, and decided to make a programming language 
@@ -133,8 +147,11 @@ cheap solutions (and workforce.)
 One consequence is that often Python is seen as the uniform skill and paradigm 
 that is going to bring everything together cheaply. 
 
-Another consequence is that all data scientists and machine learning engineers in those projects are seen 
-to be fungible (because they all use Python.)
+Another consequence is that all data scientists and machine learning engineers in those projects are
+perceived to be fungible (because they all use Python.)
+
+Both consequences above can be seen as derivatives of the TSBEO-APOO-OWTDI principle. 
+(At least in managers' minds.)
 
 ------
 
