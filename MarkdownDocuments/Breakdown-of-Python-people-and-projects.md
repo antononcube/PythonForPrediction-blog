@@ -75,7 +75,8 @@ In this section we give definitions (or clarifications) of the nodes of mind-map
   that there are too many Pythons, often, with competing agendas. 
 
 - **Pythonstan:** Generally speaking that is [PyPI.org](https://pypi.org). (Or any project with a similar scope.)
-
+  - *Some people might prefer the name "Pythonistan".*
+  
 ### Strategy
 
 - **Pythonomy:** Python-driven software architecture.  
