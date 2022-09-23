@@ -92,10 +92,10 @@ In this section we give definitions (or clarifications) of the nodes of mind-map
 
 - **Pythonimics:** Python (macro- or micro-) thinking mimicry. Especially applied to projects Python is not suitable for. 
 
-- **Pythonomers:** See the definition above. For some reason, Python using different names for mainstream concepts
-  in computer science. Maybe, because it was though that that would make Python more "user friendly."
+- **Pythonomers:** See the definition above. For some reason, Python is using different names for mainstream concepts
+  in computer science. Maybe, because it was thought that that would make Python more "user friendly."
 
-- **Pythonidis:** See the definition above. It happens when on idiomatic level often enough.
+- **Pythonidis:** See the definition above. It happens on idiomatic level often enough.
 
 
 ------
