@@ -1,4 +1,4 @@
-# Random Mandala Python package
+# Random Mandalas Generator
 
 ***Anton Antonov***    
 [Python-packages at GitHub/antononcube](https://github.com/antononcube/Python-packages)    
@@ -7,7 +7,9 @@
 
 ## Introduction
 
-This Python package implements the function `random_mandala` that generates plots (and images) of random mandalas.
+This blog post proclaims the Python package 
+["RandomMandala"](https://pypi.org/project/RandomMandala/) 
+and fully describes its function `random_mandala` that generates plots (and images) of random mandalas.
 
 The design, implementation *strategy*, and unit tests closely resemble the Wolfram Repository Function (WFR)
 [`RandomMandala`](https://resources.wolframcloud.com/FunctionRepository/resources/RandomMandala),
@@ -24,7 +26,7 @@ For detailed descriptions of Machine Learning studies that use collections of ra
 [AA1, AA2] and related presentation [AAv1].
 
 **Remark:** This Markdown file was automatically generated from the notebook:
-["RandomMandala-package.ipynb"](../Notebooks/RandomMandala-package.ipynb).
+["RandomMandala-package.ipynb"](../Notebooks/Random-Mandalas-Generator.ipynb).
 
 ------
 
@@ -107,7 +109,7 @@ fig = random_mandala()
 
 
     
-![png](Diagrams/RandomMandala-package/output_5_0.png)
+![png](https://github.com/antononcube/PythonForPrediction-blog/raw/main/MarkdownDocuments/Diagrams/Random-Mandalas-Generator/output_5_0.png)
     
 
 Here we generate a figure with 12 (3x4) random mandalas:
@@ -121,7 +123,7 @@ plt.show()
 
 
     
-![png](Diagrams/RandomMandala-package/output_7_0.png)
+![png](https://github.com/antononcube/PythonForPrediction-blog/raw/main/MarkdownDocuments/Diagrams/Random-Mandalas-Generator/output_7_0.png)
     
 
 
@@ -141,7 +143,7 @@ fig=random_mandala(n_rows=1, n_columns=3)
 
 
     
-![png](Diagrams/RandomMandala-package/output_9_0.png)
+![png](https://github.com/antononcube/PythonForPrediction-blog/raw/main/MarkdownDocuments/Diagrams/Random-Mandalas-Generator/output_9_0.png)
     
 
 
@@ -168,7 +170,7 @@ plt.close(fig)
 
 
     
-![png](Diagrams/RandomMandala-package/output_11_0.png)
+![png](https://github.com/antononcube/PythonForPrediction-blog/raw/main/MarkdownDocuments/Diagrams/Random-Mandalas-Generator/output_11_0.png)
     
 
 
@@ -198,7 +200,7 @@ plt.close(fig)
 
 
     
-![png](Diagrams/RandomMandala-package/output_14_0.png)
+![png](https://github.com/antononcube/PythonForPrediction-blog/raw/main/MarkdownDocuments/Diagrams/Random-Mandalas-Generator/output_14_0.png)
     
 
 
@@ -215,7 +217,7 @@ fig3=random_mandala(radius=[8,5,3],
 
 
     
-![png](Diagrams/RandomMandala-package/output_16_0.png)
+![png](https://github.com/antononcube/PythonForPrediction-blog/raw/main/MarkdownDocuments/Diagrams/Random-Mandalas-Generator/output_16_0.png)
     
 
 
@@ -246,7 +248,7 @@ plt.close(fig)
 
 
     
-![png](Diagrams/RandomMandala-package/output_20_0.png)
+![png](https://github.com/antononcube/PythonForPrediction-blog/raw/main/MarkdownDocuments/Diagrams/Random-Mandalas-Generator/output_20_0.png)
     
 
 
@@ -275,7 +277,7 @@ plt.close(fig)
 
 
     
-![png](Diagrams/RandomMandala-package/output_22_0.png)
+![png](https://github.com/antononcube/PythonForPrediction-blog/raw/main/MarkdownDocuments/Diagrams/Random-Mandalas-Generator/output_22_0.png)
     
 
 
@@ -301,7 +303,7 @@ plt.close(fig)
 
 
     
-![png](Diagrams/RandomMandala-package/output_23_0.png)
+![png](https://github.com/antononcube/PythonForPrediction-blog/raw/main/MarkdownDocuments/Diagrams/Random-Mandalas-Generator/output_23_0.png)
     
 
 
@@ -328,7 +330,7 @@ plt.close(fig)
 
 
     
-![png](Diagrams/RandomMandala-package/output_25_0.png)
+![png](https://github.com/antononcube/PythonForPrediction-blog/raw/main/MarkdownDocuments/Diagrams/Random-Mandalas-Generator/output_25_0.png)
     
 
 
@@ -358,7 +360,7 @@ plt.close(fig)
 
 
     
-![png](Diagrams/RandomMandala-package/output_27_0.png)
+![png](https://github.com/antononcube/PythonForPrediction-blog/raw/main/MarkdownDocuments/Diagrams/Random-Mandalas-Generator/output_27_0.png)
     
 
 
@@ -389,7 +391,7 @@ plt.close(fig)
 
 
     
-![png](Diagrams/RandomMandala-package/output_29_0.png)
+![png](https://github.com/antononcube/PythonForPrediction-blog/raw/main/MarkdownDocuments/Diagrams/Random-Mandalas-Generator/output_29_0.png)
     
 
 
@@ -422,7 +424,7 @@ plt.close(fig)
 
 
     
-![png](Diagrams/RandomMandala-package/output_31_0.png)
+![png](https://github.com/antononcube/PythonForPrediction-blog/raw/main/MarkdownDocuments/Diagrams/Random-Mandalas-Generator/output_31_0.png)
     
 
 
@@ -487,7 +489,7 @@ plt.show()
 
 
     
-![png](Diagrams/RandomMandala-package/output_33_0.png)
+![png](https://github.com/antononcube/PythonForPrediction-blog/raw/main/MarkdownDocuments/Diagrams/Random-Mandalas-Generator/output_33_0.png)
     
 
 
@@ -503,7 +505,7 @@ fig=random_mandala(n_rows=6, n_columns=6, figsize=(10,10), dpi=240)
 
 
     
-![png](Diagrams/RandomMandala-package/output_35_0.png)
+![png](https://github.com/antononcube/PythonForPrediction-blog/raw/main/MarkdownDocuments/Diagrams/Random-Mandalas-Generator/output_35_0.png)
     
 
 
@@ -538,7 +540,7 @@ plt.close(fig)
 
 
     
-![png](Diagrams/RandomMandala-package/output_37_0.png)
+![png](https://github.com/antononcube/PythonForPrediction-blog/raw/main/MarkdownDocuments/Diagrams/Random-Mandalas-Generator/output_37_0.png)
     
 
 
@@ -568,7 +570,7 @@ plt.close(fig)
 
 
     
-![png](Diagrams/RandomMandala-package/output_39_0.png)
+![png](https://github.com/antononcube/PythonForPrediction-blog/raw/main/MarkdownDocuments/Diagrams/Random-Mandalas-Generator/output_39_0.png)
     
 
 
