@@ -620,7 +620,7 @@ plt.close(fig)
 
 ### Videos
 
-[AAv1] Anton Antonov
+[AAv1] Anton Antonov,
 ["Random Mandalas Deconstruction in R, Python, and Mathematica (Greater Boston useR Meetup, Feb 2022)"](https://www.youtube.com/watch?v=nKlcts5aGwY)
 (2022),
 [Anton Antonov's channel at YouTube](https://www.youtube.com/@AAA4prediction).
