@@ -1,9 +1,9 @@
 # Random Mandala Python package
 
 ***Anton Antonov***    
-[Python-packages at GitHub/antononcube](https://github.com/antononcube/Python-packages)   
-***November 2021***
-***February 2022***
+[Python-packages at GitHub/antononcube](https://github.com/antononcube/Python-packages)    
+***November 2021***   
+***February 2022***   
 
 ## Introduction
 
@@ -21,7 +21,10 @@ The Bezier mandala seeds are created using the Python package
 [DHp1].
 
 For detailed descriptions of Machine Learning studies that use collections of random mandalas see the articles
-[AA1, AA2].
+[AA1, AA2] and related presentation [AAv1].
+
+**Remark:** This Markdown file was automatically generated from the notebook:
+["RandomMandala-package.ipynb"](../Notebooks/RandomMandala-package.ipynb).
 
 ------
 
@@ -614,3 +617,10 @@ plt.close(fig)
 (2016),
 [PyPy.org](https://pypi.org).
 
+
+### Videos
+
+[AAv1] Anton Antonov
+["Random Mandalas Deconstruction in R, Python, and Mathematica (Greater Boston useR Meetup, Feb 2022)"](https://www.youtube.com/watch?v=nKlcts5aGwY)
+(2022),
+[Anton Antonov's channel at YouTube](https://www.youtube.com/@AAA4prediction).
