@@ -59,7 +59,7 @@ fig = chernoff_face(data=data,
 
 
     
-![png](./Diagrams/Facing-data-with-Chernoff-faces/output_4_0.png)
+![png](https://raw.githubusercontent.com/antononcube/PythonForPrediction-blog/main/MarkdownDocuments/Diagrams/Facing-data-with-Chernoff-faces/output_4_0.png)
     
 
 
@@ -268,7 +268,7 @@ fig = chernoff_face(data=dfData2,
 
 
     
-![png](./Diagrams/Facing-data-with-Chernoff-faces/output_10_0.png)
+![png](https://raw.githubusercontent.com/antononcube/PythonForPrediction-blog/main/MarkdownDocuments/Diagrams/Facing-data-with-Chernoff-faces/output_10_0.png)
     
 
 
@@ -455,7 +455,7 @@ fig = chernoff_face(data=dfData2,
 
 
     
-![png](./Diagrams/Facing-data-with-Chernoff-faces/output_16_0.png)
+![png](https://raw.githubusercontent.com/antononcube/PythonForPrediction-blog/main/MarkdownDocuments/Diagrams/Facing-data-with-Chernoff-faces/output_16_0.png)
     
 
 
