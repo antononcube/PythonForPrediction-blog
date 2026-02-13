@@ -27,7 +27,7 @@ For detailed descriptions of Machine Learning studies that use collections of ra
 [AA1, AA2] and related presentation [AAv1].
 
 **Remark:** This Markdown file was automatically generated from the notebook:
-["RandomMandala-package.ipynb"](../Notebooks/Random-Mandalas-Generator.ipynb).
+["RandomMandala-package.ipynb"](../Notebooks/Jupyter/Random-Mandalas-Generator.ipynb).
 
 ------
 
