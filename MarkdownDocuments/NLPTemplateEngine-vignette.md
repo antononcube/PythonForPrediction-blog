@@ -1,6 +1,6 @@
 # NLPTemplateEngine (vignette)
 
-The Python package ["NLPTemplateEngine"](https://pypi.org/project/NLPTemplateEngine/), [AAp1], aims to create (nearly) executable code for various computational workflows.
+The document describes and exemplifies the Python package ["NLPTemplateEngine"](https://pypi.org/project/NLPTemplateEngine/), [AAp1], which aims to create (nearly) executable code for various computational workflows.
 
 Package's data and implementation make a Natural Language Processing (NLP) [Template Engine (TE)](https://en.wikipedia.org/wiki/Template_processor), [Wk1],  that incorporates [Question Answering Systems (QAS')](https://en.wikipedia.org/wiki/Question_answering), [Wk2], and Machine Learning (ML) classifiers.
 
@@ -19,8 +19,7 @@ An alternative, more comprehensive approach to building workflows code is given 
 
 We want to have a system (i.e. TE) that:
 
-1. Generates relevant, correct, executable programming code based on natural language specifications of computational
-   workflows
+1. Generates relevant, correct, executable programming code based on natural language specifications of computational workflows
 
 2. Can automatically recognize the workflow types
 
