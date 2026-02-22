@@ -272,7 +272,7 @@ concretize(cmd, template = "SendMail", lang = 'WL', llm=llm)
 
 [AAp3] Anton Antonov, [DSL::Examples, Raku package](https://github.com/antononcube/Raku-DSL-Examples), (2024-2025), [GitHub/antononcube](https://github.com/antononcube).
 
-[AAp4] Anton Antonov, [ML::TemplateEngine, Raku package](https://github.com/antononcube/Raku-ML-TemplateEngine), (2023-2025), [GitHub/antononcube](https://github.com/antononcube).
+[AAp4] Anton Antonov, [ML::NLPTemplateEngine, Raku package](https://github.com/antononcube/Raku-ML-NLPTemplateEngine), (2023-2025), [GitHub/antononcube](https://github.com/antononcube).
 
 [AAp5] Anton Antonov, [NLPTemplateEngine, WL paclet](https://resources.wolframcloud.com/PacletRepository/resources/AntonAntonov/NLPTemplateEngine/), (2023), [Wolfram Language Paclet Repository](https://resources.wolframcloud.com/PacletRepository/).
 
