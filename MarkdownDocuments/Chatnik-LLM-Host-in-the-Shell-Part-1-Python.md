@@ -30,7 +30,7 @@ Here are the most notable "Chatnik" features:
 While the interface remains the same, the Raku CLI commands use kebab-case (`llm-chat` and `llm-chat-meta`) and in Python they were switched to snake_case 
 (`llm_chat` and `llm_chat_meta`.)
 
-**Remark:** From the previous remark follows that it much this document can be read to be about the *"Chatnik system"* and not about a certain package (in Python.) 
+**Remark:** Based on the previous remark, much of this document should be understood as describing the *"Chatnik system"* rather than a specific Python package.
 
 The rest of this document is organized as follows:
 
