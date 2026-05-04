@@ -2,13 +2,9 @@
 
 ## Introduction
 
-["Chatnik"](https://pypi.org/project/Chatnik) is a Python package that provides Command Line Interface (CLI)
-scripts for conversing with multiple, persistent Large Language Model (LLM) personas. 
-Files of the host Operating System (OS) are used to maintain persistence.
+["Chatnik"](https://pypi.org/project/Chatnik) is a Python package that provides Command Line Interface (CLI) scripts for conversing with multiple, persistent Large Language Model (LLM) personas.  Files of the host Operating System (OS) are used to maintain persistence.
 
-Most importantly, "Chatnik" does not try to entrench users in its own user experience (loop) for interaction with LLMs.
-Instead, it brings customizable LLM invocations and conversations into the Unix shell -- 
-making them composable, integratable, and scriptable with existing workflows.
+Most importantly, "Chatnik" does not try to entrench users in its own user experience (loop) for interaction with LLMs. Instead, it brings customizable LLM invocations and conversations into the Unix shell -- making them composable, integratable, and scriptable with existing workflows.
 
 In other words, the tag line "LLM Host in the Shell" should be understood as "LLMs, not as an app -- but as a Unix shell primitive." 
 
@@ -166,16 +162,13 @@ llm_chat_meta last-message | sed '1d; $d' | mmdflux
                     └──────────────────────────────────────────┘
 ```
 
-**Remark:** Since the result is usually given in Markdown code fences, we did not make a pipeline to plot the diagram.
-We used two shell commands in order to observe the intermediate result.
+**Remark:** Since the result is usually given in Markdown code fences, we did not make a pipeline to plot the diagram. We used two shell commands in order to observe the intermediate result.
 
 **Remark:** The default object identifier for both `llm_chat` and `llm_chat_meta` is "NONE".
 
 ### Copy-editing
 
-Here is a very practical example --
-this document was copy-edited with the prompt ["CopyEdit"](https://resources.wolframcloud.com/PromptRepository/resources/CopyEdit) 
-using the following commands:
+Here is a very practical example -- this document was copy-edited with the prompt ["CopyEdit"](https://resources.wolframcloud.com/PromptRepository/resources/CopyEdit)  using the following commands:
 
 ```
 cat Chatnik-LLM-Host-in-the-Shell-Part-1.md | llm_chat -i=ce --prompt=@CopyEdit --model=gpt-5.4-mini --max-tokens=16384
@@ -197,12 +190,9 @@ open Chatnik-LLM-Host-in-the-Shell-Part-1_edited.md
 
 ### Why do it?
 
-Most LLM interfaces -- both "big" popular ones and those built by developers experimenting with LLMs -- default to an application-centric design: a closed interaction loop with implicit state. 
-This pattern is convenient, but very limiting. It can be cynically seen as an intentional effort for user lock-in or just as an attempt to impose certain user-experience views.
-It works against the "freedom enabling" Unix design principles. (Such as composability, transparency, and scriptability.)
+Most LLM interfaces -- both "big" popular ones and those built by developers experimenting with LLMs -- default to an application-centric design: a closed interaction loop with implicit state. This pattern is convenient, but very limiting. It can be cynically seen as an intentional effort for user lock-in or just as an attempt to impose certain user-experience views. It works against the "freedom enabling" Unix design principles. (Such as composability, transparency, and scriptability.)
 
-With "Chatnik", instead of adapting workflows to fit an LLM application, LLM capabilities are brought into the shell as first-class primitives.
-This enables reuse of existing tooling (pipes, redirects, scripts) and aligns LLM interaction with long-established UNIX practices.
+With "Chatnik", instead of adapting workflows to fit an LLM application, LLM capabilities are brought into the shell as first-class primitives. This enables reuse of existing tooling (pipes, redirects, scripts) and aligns LLM interaction with long-established UNIX practices.
 
 ### Why was it relatively easy to do?
 
@@ -217,9 +207,7 @@ This enables reuse of existing tooling (pipes, redirects, scripts) and aligns LL
 
 > We have persistent objects, they're called files.
 
-**Remark:** Less obnoxiously, instead of saying that LLM providers expose messy, non-uniform APIs, we can say that their APIs "are individually reasonable, but collectively inconsistent."
-Because of the popularity of OpenAI's models, many LLM providers adhere to a degree with OpenAI's API.
-Still, the APIs -- collectively -- have inconsistent schemas, authorization, streaming, tool-calling, roles, etc.
+**Remark:** Less obnoxiously, instead of saying that LLM providers expose messy, non-uniform APIs, we can say that their APIs "are individually reasonable, but collectively inconsistent." Because of the popularity of OpenAI's models, many LLM providers adhere to a degree with OpenAI's API. Still, the APIs -- collectively -- have inconsistent schemas, authorization, streaming, tool-calling, roles, etc.
 
 ### Why is it useful?
 
@@ -343,24 +331,19 @@ Here is a concise narration of the flow:
 A command issued in the OS shell is treated as the entry point into a composable pipeline, where LLM calls can participate alongside standard UNIX tools.
 
 **State is externalized and file-backed, not hidden in process memory.**   
-Chat sessions are represented as chat objects that are ingested from and persisted to the file system. 
-This makes conversations durable, inspectable, and naturally versionable using existing OS tools.
+Chat sessions are represented as chat objects that are ingested from and persisted to the file system. This makes conversations durable, inspectable, and naturally versionable using existing OS tools.
 
 **Chat identity is explicit but optional.**   
-When a chat ID is provided, the corresponding conversation is resumed; when absent or unknown, a new chat object is created. 
-This allows both ad-hoc interactions and long-lived conversational contexts without friction.
+When a chat ID is provided, the corresponding conversation is resumed; when absent or unknown, a new chat object is created. This allows both ad-hoc interactions and long-lived conversational contexts without friction.
 
 **Prompting is treated as a programmable layer.**   
-Inputs are not passed directly to models; they are first parsed through a lightweight DSL. 
-Known prompts are expanded from a prompt repository, enabling reuse, parameterization, and standardization of interactions.
+Inputs are not passed directly to models; they are first parsed through a lightweight DSL. Known prompts are expanded from a prompt repository, enabling reuse, parameterization, and standardization of interactions.
 
 **LLM invocation is abstracted but not obscured.**   
-Evaluation is delegated to "LLMFunctionObjects", which provides a uniform interface over multiple providers, including OpenAI (ChatGPT), Google (Gemini), and Ollama. 
-This keeps provider choice flexible while preserving a consistent workflow.
+Evaluation is delegated to "LLMFunctionObjects", which provides a uniform interface over multiple providers, including OpenAI (ChatGPT), Google (Gemini), and Ollama. This keeps provider choice flexible while preserving a consistent workflow.
 
 **The system is designed for composability and integration.**   
-Each stage—state ingestion, prompt processing, evaluation, and persistence—can be understood as part of a pipeline. 
-This makes LLM interactions scriptable, chainable, and interoperable with existing command-line utilities.
+Each stage—state ingestion, prompt processing, evaluation, and persistence—can be understood as part of a pipeline. This makes LLM interactions scriptable, chainable, and interoperable with existing command-line utilities.
 
 **Persistence is a first-class outcome of every interaction.**  
 Every evaluation both returns a result to the shell and updates the underlying chat object store, ensuring that conversational context evolves incrementally and reliably.
@@ -378,9 +361,7 @@ In this section, we point to Python packages that are both ingredients of, and a
 
 The LLM-chat object functionalities (creation and interaction) are provided by ["LLMFunctionObjects"](https://pypi.org/project/LLMFunctionObjects/), [AAp1].
 
-Prompt collection, prompt spec DSL, and related prompt expansion are provided by ["LLMPrompts"](https://pypi.org/project/LLMPrompts), [AAp2].
-The CLI script `llm_prompt` of "LLMPrompts" can be used to examine, retrieve, and concretize prompts. 
-For example, here it can be seen the full text of the function prompt "MermaidDiagram" with given arguments:
+Prompt collection, prompt spec DSL, and related prompt expansion are provided by ["LLMPrompts"](https://pypi.org/project/LLMPrompts), [AAp2]. The CLI script `llm_prompt` of "LLMPrompts" can be used to examine, retrieve, and concretize prompts. For example, here it can be seen the full text of the function prompt "MermaidDiagram" with given arguments:
 
 ```
 llm_prompt MermaidDiagram MYTEXT MY_DIAGRAM_TYPE
@@ -395,11 +376,9 @@ llm_chat "@CodeWriterX|Python 2D random walk." | llm_chat -i=ch --prompt="$(llm_
 
 ### Related alternatives
 
-- The Python package ["JupyterChatbook"](https://pypi.org/project/JupyterChatbook/) uses the same evaluation
-mechanisms as "Chatnik", but its interactive environment is a Jupyter notebook instead of an OS shell.
+- The Python package ["JupyterChatbook"](https://pypi.org/project/JupyterChatbook/) uses the same evaluation mechanisms as "Chatnik", but its interactive environment is a Jupyter notebook instead of an OS shell.
 
-- The Raku package ["JupyterChatbook"](https://raku.land/zef:antononcube/Jupyter::Chatbook) and the Wolfram Language paclet ["Chatbook"](https://resources.wolframcloud.com/PacletRepository/resources/Wolfram/Chatbook/)
-are also notebook alternatives to "Chatnik".
+- The Raku package ["JupyterChatbook"](https://raku.land/zef:antononcube/Jupyter::Chatbook) and the Wolfram Language paclet ["Chatbook"](https://resources.wolframcloud.com/PacletRepository/resources/Wolfram/Chatbook/) are also notebook alternatives to "Chatnik".
 
 - As it is mentioned in the introduction, the [Raku package "Chatnik"](https://raku.land/zef:antononcube/Chatnik) provides the same functionalities as the Python package "Chatnik".  
 
@@ -410,59 +389,29 @@ are also notebook alternatives to "Chatnik".
 
 ### Articles, blog posts
 
-[AA1] Anton Antonov,
-["Jupyter::Chatbook"](https://rakuforprediction.wordpress.com/2023/09/03/jupyterchatbook),
-(2023),
-[RakuForPrediction at WordPress](https://rakuforprediction.wordpress.com).
+[AA1] Anton Antonov, ["Jupyter::Chatbook"](https://rakuforprediction.wordpress.com/2023/09/03/jupyterchatbook), (2023), [RakuForPrediction at WordPress](https://rakuforprediction.wordpress.com).
 
-[AA2] Anton Antonov,
-["Jupyter::Chatbook Cheatsheet"](https://rakuforprediction.wordpress.com/2026/03/14/jupyterchatbook-cheatsheet),
-(2026),
-[RakuForPrediction at WordPress](https://rakuforprediction.wordpress.com).
+[AA2] Anton Antonov, ["Jupyter::Chatbook Cheatsheet"](https://rakuforprediction.wordpress.com/2026/03/14/jupyterchatbook-cheatsheet), (2026), [RakuForPrediction at WordPress](https://rakuforprediction.wordpress.com).
 
-[AA3] Anton Antonov,
-["Jupyter Chatbook Cheatsheet"](https://pythonforprediction.wordpress.com/2026/03/12/jupyter-chatbook-cheatsheet),
-(2026),
-[PythonForPrediction at WordPress](https://rakuforprediction.wordpress.com).
+[AA3] Anton Antonov, ["Jupyter Chatbook Cheatsheet"](https://pythonforprediction.wordpress.com/2026/03/12/jupyter-chatbook-cheatsheet), (2026), [PythonForPrediction at WordPress](https://rakuforprediction.wordpress.com).
 
 ### Packages
 
-[AAp1] Anton Antonov,
-[LLMFunctionObjects, Python package](https://github.com/antononcube/Python-packages/tree/main/LLMFunctionObjects),
-(2023-2026),
-[GitHub/antononcube](https://github.com/antononcube).
+[AAp1] Anton Antonov, [LLMFunctionObjects, Python package](https://github.com/antononcube/Python-packages/tree/main/LLMFunctionObjects), (2023-2026), [GitHub/antononcube](https://github.com/antononcube).
 ([PyPI.org page](https://pypi.org/project/LLMFunctionObjects).)
 
-[AAp2] Anton Antonov,
-[LLMPrompts, Python package](https://github.com/antononcube/Python-packages/tree/main/LLMPrompts),
-(2023-2025),
-[GitHub/antononcube](https://github.com/antononcube).
+[AAp2] Anton Antonov, [LLMPrompts, Python package](https://github.com/antononcube/Python-packages/tree/main/LLMPrompts), (2023-2025),[GitHub/antononcube](https://github.com/antononcube). 
 ([PyPI.org page](https://pypi.org/project/LLMPrompts).)
 
-[AAp3] Anton Antonov,
-[Jupyter::Chatbook, Raku package](https://github.com/antononcube/Python-Jupyter-Chatbook),
-(2023-2026),
-[GitHub/antononcube](https://github.com/antononcube).
+[AAp3] Anton Antonov, [Jupyter::Chatbook, Raku package](https://github.com/antononcube/Python-Jupyter-Chatbook), (2023-2026), [GitHub/antononcube](https://github.com/antononcube).
 
-[AAp4] Anton Antonov,
-[Data::Translators, Python package](https://github.com/antononcube/Python-Data-Translators),
-(2023-2026),
-[GitHub/antononcube](https://github.com/antononcube).
+[AAp4] Anton Antonov, [Data::Translators, Python package](https://github.com/antononcube/Python-Data-Translators), (2023-2026), [GitHub/antononcube](https://github.com/antononcube).
 
-[AAp5] Anton Antonov,
-[JupyterChatbook, Python package](https://github.com/antononcube/Python-JupyterChatbook),
-(2023-2026),
-[GitHub/antononcube](https://github.com/antononcube).
+[AAp5] Anton Antonov, [JupyterChatbook, Python package](https://github.com/antononcube/Python-JupyterChatbook), (2023-2026), [GitHub/antononcube](https://github.com/antononcube).
 
-[CGp1] Connor Gray, et al.
-[Chatbook, Wolfram Language paclet](https://resources.wolframcloud.com/PacletRepository/resources/Wolfram/Chatbook),
-(2023-2024),
-[Wolfram Language Paclet Repository](https://resources.wolframcloud.com/PacletRepository).
+[CGp1] Connor Gray, et al., [Chatbook, Wolfram Language paclet](https://resources.wolframcloud.com/PacletRepository/resources/Wolfram/Chatbook), (2023-2024), [Wolfram Language Paclet Repository](https://resources.wolframcloud.com/PacletRepository).
 
 ### Videos
 
-[AAv1] Anton Antonov,
-["Integrating Large Language Models with Raku"](https://youtu.be/-OxKqRrQvh0?si=5LEj8-Dtcxjn-0QR&t=548),
-(2023),
-[The Raku Conference 2023 at YouTube](https://www.youtube.com/@therakuconference6823).
+[AAv1] Anton Antonov, ["Integrating Large Language Models with Raku"](https://youtu.be/-OxKqRrQvh0?si=5LEj8-Dtcxjn-0QR&t=548), (2023), [The Raku Conference 2023 at YouTube](https://www.youtube.com/@therakuconference6823).
 
