@@ -356,6 +356,8 @@ A few observations:
 
 - For a few of the models the secondary function produced different results, but for most not difference in results and timings were observed.
 - For some of the models that produced a correct results multiple executions were made and occasionally different (and wrong) code was generated.
+- The tests are for line-by-line generation; en-bloc tests can produce different results.
+  - Hopefully, fast and correct.   
 - Of course, a more extensive benchmark study can be staged for different combinations of models, programming languages, natural languages, and workflows.
     - But that would require more planning, time, and resources.
 
@@ -592,7 +594,7 @@ A few observations:
   </tbody>
 </table>
 
-Testing for speed and correctness is helps making more adequate designs for agentic translation architectures like the ones described in the article ["Day 6 – Robust code generation combining grammars and LLMs"](https://raku-advent.blog/2025/12/06/day-6-robust-code-generation-combining-grammars-and-llms/), [AA1, AAn1].
+Testing for speed and correctness helps to make more adequate designs for agentic translation architectures like the ones described in the article ["Day 6 – Robust code generation combining grammars and LLMs"](https://raku-advent.blog/2025/12/06/day-6-robust-code-generation-combining-grammars-and-llms/), [AA1, AAn1].
 
 ---
 
